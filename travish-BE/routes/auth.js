@@ -4,7 +4,7 @@ const {body} = require('express-validator');
 // var bodyParser = require('body-parser');
 
 // Import Authentication Controller
-const authCntrl = require("../controllers/auth");
+const authCntrl = require('../controllers/auth');
 const { getMaxListeners } = require('../models/User');
 
 // const multer = require('multer');
